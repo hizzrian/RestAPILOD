@@ -1,0 +1,347 @@
+CRITICAL - 2023-08-14 22:16:38 --> Invalid argument supplied for foreach()
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Users/hizrian/...', 1205, Array)
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Model.php(720): CodeIgniter\Database\BaseBuilder->groupBy(NULL)
+#2 /Users/hizrian/Documents/artikel/REST-Api/app/Controllers/Artikel.php(31): CodeIgniter\Model->__call('groupBy', Array)
+#3 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#5 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#8 {main}
+CRITICAL - 2023-08-14 22:16:41 --> Invalid argument supplied for foreach()
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Users/hizrian/...', 1205, Array)
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Model.php(720): CodeIgniter\Database\BaseBuilder->groupBy(NULL)
+#2 /Users/hizrian/Documents/artikel/REST-Api/app/Controllers/Artikel.php(31): CodeIgniter\Model->__call('groupBy', Array)
+#3 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#5 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#8 {main}
+CRITICAL - 2023-08-14 22:21:04 --> Invalid argument supplied for foreach()
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Users/hizrian/...', 1205, Array)
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Model.php(720): CodeIgniter\Database\BaseBuilder->groupBy(NULL)
+#2 /Users/hizrian/Documents/artikel/REST-Api/app/Controllers/Artikel.php(31): CodeIgniter\Model->__call('groupBy', Array)
+#3 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#5 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#8 {main}
+CRITICAL - 2023-08-14 22:21:04 --> Invalid argument supplied for foreach()
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Users/hizrian/...', 1205, Array)
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Model.php(720): CodeIgniter\Database\BaseBuilder->groupBy(NULL)
+#2 /Users/hizrian/Documents/artikel/REST-Api/app/Controllers/Artikel.php(31): CodeIgniter\Model->__call('groupBy', Array)
+#3 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#5 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#8 {main}
+CRITICAL - 2023-08-14 22:21:07 --> Invalid argument supplied for foreach()
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Users/hizrian/...', 1205, Array)
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Model.php(720): CodeIgniter\Database\BaseBuilder->groupBy(NULL)
+#2 /Users/hizrian/Documents/artikel/REST-Api/app/Controllers/Artikel.php(31): CodeIgniter\Model->__call('groupBy', Array)
+#3 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#5 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#8 {main}
+CRITICAL - 2023-08-14 22:21:07 --> Invalid argument supplied for foreach()
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Users/hizrian/...', 1205, Array)
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Model.php(720): CodeIgniter\Database\BaseBuilder->groupBy(NULL)
+#2 /Users/hizrian/Documents/artikel/REST-Api/app/Controllers/Artikel.php(31): CodeIgniter\Model->__call('groupBy', Array)
+#3 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#5 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#8 {main}
+CRITICAL - 2023-08-14 22:21:11 --> Invalid argument supplied for foreach()
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Users/hizrian/...', 1205, Array)
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Model.php(720): CodeIgniter\Database\BaseBuilder->groupBy(NULL)
+#2 /Users/hizrian/Documents/artikel/REST-Api/app/Controllers/Artikel.php(31): CodeIgniter\Model->__call('groupBy', Array)
+#3 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#5 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#8 {main}
+CRITICAL - 2023-08-14 22:21:31 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, array given, called in /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Model.php on line 720
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Model.php(720): CodeIgniter\Database\BaseBuilder->orderBy(Array)
+#1 /Users/hizrian/Documents/artikel/REST-Api/app/Controllers/Artikel.php(30): CodeIgniter\Model->__call('orderBy', Array)
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#3 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#7 {main}
+CRITICAL - 2023-08-14 22:21:44 --> Invalid argument supplied for foreach()
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Users/hizrian/...', 1205, Array)
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Model.php(720): CodeIgniter\Database\BaseBuilder->groupBy(NULL)
+#2 /Users/hizrian/Documents/artikel/REST-Api/app/Controllers/Artikel.php(31): CodeIgniter\Model->__call('groupBy', Array)
+#3 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#5 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#8 {main}
+CRITICAL - 2023-08-14 22:23:21 --> Undefined variable: search
+#0 /Users/hizrian/Documents/artikel/REST-Api/app/Controllers/Artikel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/hizrian/...', 36, Array)
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#3 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#6 {main}
+CRITICAL - 2023-08-14 22:23:23 --> Undefined variable: search
+#0 /Users/hizrian/Documents/artikel/REST-Api/app/Controllers/Artikel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/hizrian/...', 36, Array)
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#3 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#6 {main}
+CRITICAL - 2023-08-14 22:23:24 --> Undefined variable: search
+#0 /Users/hizrian/Documents/artikel/REST-Api/app/Controllers/Artikel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/hizrian/...', 36, Array)
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#3 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#6 {main}
+CRITICAL - 2023-08-14 22:23:25 --> Undefined variable: search
+#0 /Users/hizrian/Documents/artikel/REST-Api/app/Controllers/Artikel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/hizrian/...', 36, Array)
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#3 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#6 {main}
+CRITICAL - 2023-08-14 22:23:25 --> Undefined variable: search
+#0 /Users/hizrian/Documents/artikel/REST-Api/app/Controllers/Artikel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/hizrian/...', 36, Array)
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#3 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#6 {main}
+CRITICAL - 2023-08-14 22:23:41 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, array given, called in /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Model.php on line 720
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Model.php(720): CodeIgniter\Database\BaseBuilder->orderBy(Array)
+#1 /Users/hizrian/Documents/artikel/REST-Api/app/Controllers/Artikel.php(28): CodeIgniter\Model->__call('orderBy', Array)
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#3 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#7 {main}
+CRITICAL - 2023-08-14 22:27:34 --> Call to a member function items() on array
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#5 {main}
+CRITICAL - 2023-08-14 22:27:34 --> Call to a member function items() on array
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#5 {main}
+CRITICAL - 2023-08-14 22:27:47 --> Call to a member function items() on array
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#5 {main}
+CRITICAL - 2023-08-14 22:27:49 --> Call to a member function items() on array
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#5 {main}
+CRITICAL - 2023-08-14 22:29:57 --> Call to a member function items() on array
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#5 {main}
+CRITICAL - 2023-08-14 22:29:57 --> Call to a member function items() on array
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#5 {main}
+CRITICAL - 2023-08-14 22:30:01 --> Call to a member function items() on array
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#5 {main}
+CRITICAL - 2023-08-14 22:31:27 --> Call to a member function getItems() on array
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#5 {main}
+CRITICAL - 2023-08-14 22:31:27 --> Call to a member function getItems() on array
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#5 {main}
+CRITICAL - 2023-08-14 22:31:49 --> Call to a member function getItems() on array
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#5 {main}
+CRITICAL - 2023-08-14 22:32:17 --> Call to a member function items() on array
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#5 {main}
+CRITICAL - 2023-08-14 22:33:03 --> Call to a member function getTotalPages() on array
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#5 {main}
+CRITICAL - 2023-08-14 22:33:39 --> Call to a member function getLastPage() on array
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#5 {main}
+CRITICAL - 2023-08-14 22:34:01 --> Call to a member function getLastPage() on array
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#5 {main}
+CRITICAL - 2023-08-14 22:34:42 --> Call to a member function getNumPages() on array
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#5 {main}
+CRITICAL - 2023-08-14 22:34:43 --> Call to a member function getNumPages() on array
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#5 {main}
+CRITICAL - 2023-08-14 22:34:44 --> Call to a member function getNumPages() on array
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#5 {main}
+CRITICAL - 2023-08-14 22:35:40 --> Call to a member function getLastPage() on array
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#5 {main}
+CRITICAL - 2023-08-14 22:36:59 --> Call to a member function getTotal() on array
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#5 {main}
+CRITICAL - 2023-08-14 22:38:20 --> Call to a member function getDetails() on array
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#5 {main}
+CRITICAL - 2023-08-14 22:39:13 --> Call to a member function toArray() on array
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#5 {main}
+CRITICAL - 2023-08-14 22:39:46 --> Call to a member function getDetails() on array
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#5 {main}
+CRITICAL - 2023-08-14 22:42:17 --> Call to a member function getDetails() on array
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#5 {main}
+CRITICAL - 2023-08-14 22:44:34 --> default is not a valid Pagination group.
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Pager/Pager.php(352): CodeIgniter\Pager\Exceptions\PagerException::forInvalidPaginationGroup('default')
+#1 /Users/hizrian/Documents/artikel/REST-Api/app/Controllers/Artikel.php(53): CodeIgniter\Pager\Pager->getDetails()
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#3 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#7 {main}
+CRITICAL - 2023-08-14 22:44:58 --> Trying to get property 'pager' of non-object
+#0 /Users/hizrian/Documents/artikel/REST-Api/app/Controllers/Artikel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Users/hizrian/...', 50, Array)
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#3 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#6 {main}
+CRITICAL - 2023-08-14 22:48:54 --> Undefined variable: pager
+#0 /Users/hizrian/Documents/artikel/REST-Api/app/Controllers/Artikel.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/hizrian/...', 52, Array)
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#3 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#6 {main}
+CRITICAL - 2023-08-14 22:49:29 --> Undefined variable: arr
+#0 /Users/hizrian/Documents/artikel/REST-Api/app/Controllers/Artikel.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/hizrian/...', 52, Array)
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#3 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#6 {main}
+CRITICAL - 2023-08-14 22:49:44 --> Undefined variable: arr
+#0 /Users/hizrian/Documents/artikel/REST-Api/app/Controllers/Artikel.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/hizrian/...', 52, Array)
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#3 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#6 {main}
+CRITICAL - 2023-08-14 22:52:26 --> Call to a member function getDetails() on array
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#5 {main}

@@ -1,0 +1,95 @@
+CRITICAL - 2023-08-15 12:19:04 --> Call to a member function getDetails() on array
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#5 {main}
+CRITICAL - 2023-08-15 12:40:57 --> Call to a member function getDetails() on array
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#5 {main}
+CRITICAL - 2023-08-15 12:43:08 --> Call to a member function links() on array
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#5 {main}
+CRITICAL - 2023-08-15 12:45:48 --> Call to a member function links() on array
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#5 {main}
+CRITICAL - 2023-08-15 12:46:53 --> Call to a member function links() on null
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#5 {main}
+ERROR - 2023-08-15 21:06:18 --> Unknown column 'penulis_id' in 'where clause'
+CRITICAL - 2023-08-15 21:06:18 --> Unknown column 'penulis_id' in 'where clause'
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/hizrian/Documents/artikel/REST-Api/app/Controllers/Artikel.php(45): CodeIgniter\BaseModel->findAll()
+#7 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#8 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#9 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#12 {main}
+ERROR - 2023-08-15 21:06:34 --> Unknown column 'penulis_id' in 'where clause'
+CRITICAL - 2023-08-15 21:06:34 --> Unknown column 'penulis_id' in 'where clause'
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/hizrian/Documents/artikel/REST-Api/app/Controllers/Artikel.php(45): CodeIgniter\BaseModel->findAll()
+#7 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#8 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#9 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#12 {main}
+ERROR - 2023-08-15 21:06:36 --> Unknown column 'penulis_id' in 'where clause'
+CRITICAL - 2023-08-15 21:06:36 --> Unknown column 'penulis_id' in 'where clause'
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/hizrian/Documents/artikel/REST-Api/app/Controllers/Artikel.php(45): CodeIgniter\BaseModel->findAll()
+#7 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#8 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#9 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#12 {main}
+ERROR - 2023-08-15 21:09:26 --> Unknown column 'user.username' in 'field list'
+CRITICAL - 2023-08-15 21:09:26 --> Unknown column 'user.username' in 'field list'
+#0 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query('SELECT `artikel...')
+#1 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `artikel...')
+#2 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `artikel...')
+#3 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `artikel...', Array, false)
+#4 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/hizrian/Documents/artikel/REST-Api/app/Controllers/Artikel.php(47): CodeIgniter\BaseModel->findAll()
+#7 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Artikel->index()
+#8 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#9 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/hizrian/Documents/artikel/REST-Api/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/hizrian/Documents/artikel/REST-Api/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/hizrian/...')
+#12 {main}
