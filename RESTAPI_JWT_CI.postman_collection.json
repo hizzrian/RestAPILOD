@@ -1,0 +1,301 @@
+{
+	"info": {
+		"_postman_id": "23d24387-ea56-468e-afce-7795a44567a9",
+		"name": "RESTAPI_JWT_CI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15182298"
+	},
+	"item": [
+		{
+			"name": "{{url}}/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Mr. Nobody",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "nobody@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}/register",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{url}}/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "nobody@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}/login",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Artikel",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsIm5iZiI6MTY5MjY4OTk3NSwiaWF0IjoxNjkyNjg5OTY1LCJleHAiOjE2OTI2OTM1NjUsImRhdGEiOnsiZW1haWwiOiJhZG1pbkBsb2NhbGhvc3QuY29tIn19.UrPlbANFy7r2mONPIoGSPHocTDARAQ1TBom9ixjNN_4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "judul",
+							"value": "TEsting by api",
+							"type": "text"
+						},
+						{
+							"key": "kategori",
+							"value": "API",
+							"type": "text"
+						},
+						{
+							"key": "konten",
+							"value": "Testing create by API",
+							"type": "text"
+						},
+						{
+							"key": "penulis",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}/artikel",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"artikel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit By ID",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsIm5iZiI6MTY5MjY4OTk3NSwiaWF0IjoxNjkyNjg5OTY1LCJleHAiOjE2OTI2OTM1NjUsImRhdGEiOnsiZW1haWwiOiJhZG1pbkBsb2NhbGhvc3QuY29tIn19.UrPlbANFy7r2mONPIoGSPHocTDARAQ1TBom9ixjNN_4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"judul\":\"TEsting by api edited\",\r\n    \"kategori\":\"EditedAPI\",\r\n    \"konten\":\"Testing create by API EDITED\",\r\n    \"penulis\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/artikel/27",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"artikel",
+						"27"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "{{url}}/artikel",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/artikel",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"artikel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get artikel by id",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsIm5iZiI6MTY5MjY4OTk3NSwiaWF0IjoxNjkyNjg5OTY1LCJleHAiOjE2OTI2OTM1NjUsImRhdGEiOnsiZW1haWwiOiJhZG1pbkBsb2NhbGhvc3QuY29tIn19.UrPlbANFy7r2mONPIoGSPHocTDARAQ1TBom9ixjNN_4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/artikel/edit/12",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"artikel",
+						"edit",
+						"12"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all kategori",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/kategori",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"kategori"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all slug",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/slug",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"slug"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "view artikel by slug",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/artikel/testing-by-api",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"artikel",
+						"testing-by-api"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "http://localhost:8080",
+			"type": "string"
+		}
+	]
+}
