@@ -110,7 +110,8 @@ class Artikel extends BaseController
             $rules = [
                 'judul' => 'required',
                 'konten' => 'required|max_length[100000]',
-                'kategori' => 'required|max_length[255]'
+                'kategori' => 'required|max_length[255]',
+                'penulis' => 'required'
             ];
 
             $input = $this->getRequestInput($this->request);
@@ -152,11 +153,20 @@ class Artikel extends BaseController
     public function show($id = null)
     {
         try {
+            // update views + 1 setiap artikel dibuka
             $model = new ArtikelModel();
+            $artikel = $model->getArtikelBySlug($id);
+            $artikel['views'] = $artikel['views'] + 1;
+            $model->save($artikel);
+            // get artikel
+            $model = new ArtikelModel();
+            $model->join('user', 'user.id = artikel.penulis');
+            $model->select('artikel.id, user.fullname as author, artikel.judul, artikel.konten, artikel.kategori, artikel.views, artikel.tanggal_publikasi, artikel.slug');
+
             $artikel = $model->getArtikelBySlug($id);
             //  get konten dari artikel
             $text = $artikel['konten'];
-            // $text = $this->request->getVar('konten');
+            
             $wordsPerMinute = 200; // Ubah sesuai dengan kecepatan membaca Anda (words per minute and second
     
             $wordCount = str_word_count($text);
@@ -171,11 +181,6 @@ class Artikel extends BaseController
                 $readingTime = $readingTimeMinutes . ' menit ' . $readingTimeSeconds . ' detik';
             }
             $readingTimeMinutes = ceil($wordCount / $wordsPerMinute);
-            // update views + 1 setiap artikel dibuka
-            $model = new ArtikelModel();
-            $artikel = $model->getArtikelBySlug($id);
-            $artikel['views'] = $artikel['views'] + 1;
-            $model->save($artikel);
             if (!$artikel) {
                 throw new Exception('Artikel not found');
             }
